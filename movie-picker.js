@@ -17,7 +17,11 @@ const myFavouriteFilms = {
         { title: 'Hellzapoppin', releaseYear: 1941 },
         { title: 'Duck Soup', releaseYear: 1933 },
         { title: 'Hundreds Of Beavers', releaseYear: 2023 },
-        { title: 'Windy City Heat', releaseYear: 2003 }
+        { title: 'Windy City Heat', releaseYear: 2003 },
+        { title: 'Metal Detector Maniac', releaseYear: 2021 },
+        { title: 'Safety Last', releaseYear: 1923 }
+
+
     ],
     "Horror": [
         { title: 'Dracula', releaseYear: 1931 },

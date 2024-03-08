@@ -25,6 +25,13 @@ body {
     border-image: (repeating-linear-gradient(30deg,#365c17, #9198e5, #4d9f0c 20px)) 60;
 }
 
+.top-link-class {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+    margin-right: 90px; 
+}
+
+
 .link-class {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 19px;
@@ -45,4 +52,30 @@ body {
 
 .right-align {
     text-align: right;
+}
+
+
+
+
+
+.container {
+    background-color: #b7c1cf;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+select, input[type="number"], button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+button {
+    background-color: #347cca;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ad00b3;
 }
