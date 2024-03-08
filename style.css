@@ -1,3 +1,13 @@
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: auto auto; /* Two rows */
+    gap: 20px; /* Gap between grid items */
+}
+
+
+
 body {
     background-color: rgb(200, 190, 221);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
@@ -25,7 +35,7 @@ body {
 }
 
 .example-div {
-    margin-left: 323px;
+    text-align: center;
     padding: 1px 12px 3px 3px;
 }
 
