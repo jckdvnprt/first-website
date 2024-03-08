@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(200, 190, 221);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.circular-image {
+    border-radius: 50%;
+}
+.circular-image-container {
+    text-align: center;
+}
+
+.border-image {
+    border: 11px solid;
+    border-image: (repeating-linear-gradient(30deg,#365c17, #9198e5, #4d9f0c 20px)) 60;
+}
+
+.link-class {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+}
+
+.list-class li {
+    color: rgb(151, 67, 18);
+}
+
+.example-div {
+    margin-left: 323px;
+    padding: 1px 12px 3px 3px;
+}
+
+.centre-align {
+    text-align: center;
+}
+
+.right-align {
+    text-align: right;
+}
