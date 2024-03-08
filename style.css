@@ -1,9 +1,9 @@
 
 .gridContainer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    grid-template-rows: auto auto; /* Two rows */
-    gap: 20px; /* Gap between grid items */
+    grid-template-columns: repeat(2, 2fr); /* Two columns */
+    grid-template-rows: auto auto auto; /* Two rows */
+    gap: 2px; /* Gap between grid items */
 }
 
 

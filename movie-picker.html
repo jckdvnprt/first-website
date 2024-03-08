@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-10">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack's Favourite Movies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jack's Favourite Movies</h1>
+        <label for="genre">Select Genre:</label>
+        <select id="genre">
+            <option value="Action">Action</option>
+            <option value="Sci-fi">Sci-fi</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Horror">Horror</option>
+        </select><br>
+        <label for="position">Pick A Number:</label>
+        <input type="number" id="position" min="0" placeholder="Number"><br>
+        <button id="pickBtn">Pick Movie</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="movie-picker.js"></script>
+</body>
+</html>
